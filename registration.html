@@ -1,0 +1,47 @@
+<?php
+session_start();
+?>
+<html>
+<head>
+<title>Registration</title>
+</head>
+<body>
+<form method=get action="registeruser.php">
+First Name:<input type="text" name="first" required><br>
+Last Name: <input type="text" name="last" required><br>
+Username:  <input type="text" name="user" required><br>
+Password:  <input type="password" name="pass" required><br>
+Date of Birth: <input type="date" name="date_birth" required><br>
+Email:  <input type="email" name="email" required><br>
+Country  <input list="country" name="country" required><br>
+<datalist option="select">
+	<option value="Russia">
+    <option value="Germany">
+    <option value="Turkey">
+    <option value="France">
+    <option value="United Kingdom">
+	<option value="Italy">
+	<option value="Spain">
+	<option value="Ukraine">
+	<option value="Poland">
+	<option value="Romania">
+	<option value="Kazakhstan">
+	<option value="Netherlands">
+	<option value="Belgium">
+	<option value="Greece">
+	<option value="Czech Republic">
+	<option value="Portugal">
+	<option value="Sweden">
+	<option value="Hungary">
+	<option value="Azerbaijan">
+	<option value="Belarus">
+	<option value="Austria">
+	<option value="Switzerland">
+	<option value="Bulgaria">
+	<option value="Serbia">
+	<option value="Denmark">
+	</datalist>
+<input type="submit" value="Submit">
+</form>
+</body>
+</html>
